@@ -12,7 +12,7 @@ you can disable either your own addon or any other addon passed as a parameter.\
 The class must extend **`JavaAddon`** for this to work.
 {% endhint %}
 
-<figure><img src="../../../.gitbook/assets/JebyTestAddon.java(2).png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/JebyTestAddon.java(2).png" alt=""><figcaption></figcaption></figure></div>
 
 \
 
@@ -25,7 +25,7 @@ The class must extend **`JavaAddon`** for this to work.
 
 ***
 
-<figure><img src="../../../.gitbook/assets/AddonListener.java---Bukkit-Listening(1).png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/AddonListener.java---Bukkit-Listening(1).png" alt=""><figcaption></figcaption></figure></div>
 {% endstep %}
 {% endstepper %}
 
