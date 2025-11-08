@@ -218,7 +218,7 @@ String value = cfg.getString("settings.example");
 
 1. Build your project into a `.jar` file (using **Gradle** or **Maven**).
 2. Place the file into `plugins/TreexClans/addons/`.
-3. Restart the server.
+3. Restart the server or use /xclan reload
 
 The console will display a message:
 
