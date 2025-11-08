@@ -1,2 +1,0 @@
-# Addon Development Guide
-

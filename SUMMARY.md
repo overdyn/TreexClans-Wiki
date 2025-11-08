@@ -10,5 +10,5 @@
   * [Placeholders](plugins/treexbuyer/placeholders.md)
   * [Commands](plugins/treexbuyer/commands.md)
 * [TreexClans](plugins/e/README.md)
-  * [Addon Development Guide](plugins/e/addon-development-guide/README.md)
-    * [Getting Started](plugins/e/addon-development-guide/getting-started.md)
+  * [Разработка аддонов](plugins/e/razrabotka-addonov/README.md)
+    * [Getting Started](plugins/e/razrabotka-addonov/getting-started.md)
