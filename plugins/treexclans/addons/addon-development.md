@@ -84,6 +84,7 @@ src/
 
 #### 🧩 Basic Addon Example
 
+{% code title="ExampleAddon.java" %}
 ```java
 import me.jetby.treexclans.api.addons.JavaAddon;
 import me.jetby.treexclans.api.addons.annotations.ClanAddon;
@@ -107,6 +108,7 @@ public class ExampleAddon extends JavaAddon {
     }
 }
 ```
+{% endcode %}
 
 #### 🔑 Key Points
 
