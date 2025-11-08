@@ -25,9 +25,7 @@ The class must extend **`JavaAddon`** for this to work.
 
 ***
 
-<figure><img src="../../../.gitbook/assets/AddonListener.java---Bukkit-Listening.png" alt=""><figcaption></figcaption></figure>
-
-
+<figure><img src="../../../.gitbook/assets/AddonListener.java---Bukkit-Listening(1).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
