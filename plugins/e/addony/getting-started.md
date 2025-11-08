@@ -17,7 +17,7 @@
 {% tabs %}
 {% tab title="Gradle" %}
 {% hint style="warning" %}
-Используйте `provided`, чтобы API не попадал внутрь вашего `.jar`.
+Используйте `compileOnly`, чтобы API не попадал внутрь вашего `.jar`.
 {% endhint %}
 
 ```css

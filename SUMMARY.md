@@ -11,5 +11,5 @@
   * [Commands](plugins/treexbuyer/commands.md)
 * [TreexClans](plugins/e/README.md)
   * [Аддоны](plugins/e/addony/README.md)
-    * [Разработка аддонов](plugins/e/addony/razrabotka-addonov.md)
+    * [Разработка аддонов](plugins/e/addony/getting-started.md)
     * [TreexClans\_Addon\_Development\_Guide](plugins/e/addony/treexclans_addon_development_guide.md)
