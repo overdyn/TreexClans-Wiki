@@ -18,6 +18,10 @@ To use the TreexClans API in your project, add the repository and dependency to 
 
 {% tabs %}
 {% tab title="Gradle" %}
+{% hint style="danger" %}
+The plugin supports addons compiled with **`Java 17`** or higher, provided that the server is running on a Java version not lower than the one used to compile the addon.
+{% endhint %}
+
 {% hint style="warning" %}
 Use `compileOnly` so that the API is not included inside your `.jar` file.
 {% endhint %}
@@ -34,6 +38,10 @@ dependencies {
 {% endtab %}
 
 {% tab title="Maven" %}
+{% hint style="danger" %}
+The plugin supports addons compiled with <mark style="background-color:red;">**`Java 17`**</mark> or higher, provided that the server is running on a Java version not lower than the one used to compile the addon.
+{% endhint %}
+
 {% hint style="warning" %}
 Use `provided` so that the API is not included inside your `.jar` file.
 {% endhint %}
