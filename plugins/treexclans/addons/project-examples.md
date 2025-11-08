@@ -21,7 +21,7 @@ The class must extend **`JavaAddon`** for this to work.
 {% step %}
 #### 🎯 Listening to TreexClans Events
 
-| Event Name      |                                                                                                                                                                               | ⚙️ Triggered When                                                 | 🚫 Cancellable |
+| 🧩 Event Name   | 📝 Description                                                                                                                                                                | ⚙️ Triggered When                                                 | 🚫 Cancellable |
 | --------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------- | -------------- |
 | ClanCreateEvent | <p>Fired when a new clan is being created through the TreexClans system.</p><p>Addons can validate, modify, or cancel the creation process before the clan is registered.</p> | When a player or script attempts to create a new clan.            | ✅ Yes          |
 | ClanDeleteEvent | <p>Fired when a clan is about to be deleted or disbanded.</p><p>Addons can perform cleanup tasks, prevent deletion, or restore a previously cancelled deletion.</p>           | When a clan is scheduled for removal (manually or automatically). | ✅ Yes          |
