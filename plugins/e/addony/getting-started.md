@@ -66,11 +66,16 @@ dependencies {
 Пример структуры проекта:
 
 ```
-src/main/java/
- └── me/yourname/addons/example/
-      ├── ExampleAddon.java
-      └── config/
-          └── messages.yml
+src/
+ └── main/
+      ├── java/
+      │    └── me/jetby/clanWar/
+      │         └── ClanWarAddon.java
+      │
+      └── resources/
+           └── config/
+                └── messages.yml
+
 ```
 
 ***
@@ -82,21 +87,21 @@ import me.jetby.treexclans.api.addons.JavaAddon;
 import me.jetby.treexclans.api.addons.annotations.ClanAddon;
 
 @ClanAddon(
-        id = "example-addon",
+        id = "clanWar",
         version = "1.0.0",
-        authors = {"YourName"},
+        authors = {"Jetby"},
         description = "Пример аддона для TreexClans"
 )
 public class ExampleAddon extends JavaAddon {
 
     @Override
     public void onEnable() {
-        getLogger().info("ExampleAddon включён!");
+        getLogger().info("clanWar включён!");
     }
 
     @Override
     public void onDisable() {
-        getLogger().info("ExampleAddon выключен!");
+        getLogger().info("clanWar выключен!");
     }
 }
 ```
