@@ -1,7 +1,7 @@
 ---
 icon: hand-wave
-cover: .gitbook/assets/beda9b79-ee98-4e53-8016-d4551d11dce1.png
-coverY: 27.969974979149328
+cover: .gitbook/assets/Снимок экрана 2025-11-08 160711.png
+coverY: 0
 coverHeight: 361
 layout:
   width: default
