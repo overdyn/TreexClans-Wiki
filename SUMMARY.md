@@ -12,3 +12,4 @@
 * [TreexClans](plugins/e/README.md)
   * [Разработка аддонов](plugins/e/razrabotka-addonov/README.md)
     * [Getting Started](plugins/e/razrabotka-addonov/getting-started.md)
+    * [TreexClans\_Addon\_Development\_Guide](plugins/e/razrabotka-addonov/treexclans_addon_development_guide.md)
