@@ -12,4 +12,4 @@
 * [TreexClans](plugins/e/README.md)
   * [Аддоны](plugins/e/addony/README.md)
     * [Разработка аддонов](plugins/e/addony/getting-started.md)
-    * [TreexClans\_Addon\_Development\_Guide](plugins/e/addony/treexclans_addon_development_guide.md)
+    * [Примеры работ](plugins/e/addony/primery-rabot.md)

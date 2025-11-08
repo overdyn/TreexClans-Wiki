@@ -1,6 +1,45 @@
-# TreexClans\_Addon\_Development\_Guide
+# Примеры работ
 
 ## 🧩 Разработка аддонов для TreexClans
+
+{% stepper %}
+{% step %}
+### Как выключить плагин
+
+> &#x20;используя  this.getServiceManager().getAddonManager().disable(this); можно передать любой аддон который надо выключить либо который ваш но этот класс обязательно должен наследовать extends JavaAddon
+
+```java
+package me.jetby.treexclans.api.addons.example;
+
+import me.jetby.treexclans.api.addons.JavaAddon;
+import me.jetby.treexclans.api.addons.annotations.ClanAddon;
+
+@ClanAddon(
+        id = "test-addon",
+        version = "1.0.0",
+        authors = {"JetBy"}
+)
+public final class TestAddon extends JavaAddon {
+
+    @Override
+    public void onEnable() {
+        this.getServiceManager().getAddonManager().disable(this);
+    }
+
+    @Override
+    public void onDisable() {
+        // Plugin shutdown logic
+    }
+}
+```
+{% endstep %}
+
+{% step %}
+###
+
+
+{% endstep %}
+{% endstepper %}
 
 Добро пожаловать в **Addon Development Guide** — официальное руководство по созданию аддонов (модулей) для системы **TreexClans**.
 
