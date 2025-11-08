@@ -114,6 +114,8 @@ public class ExampleAddon extends JavaAddon {
 
 TreexClans предоставляет сервис‑менеджер, доступный через контекст аддона:
 
+<img alt="" class="gitbook-drawing">
+
 ```java
 var service = getContext().getServiceManager();
 ```
