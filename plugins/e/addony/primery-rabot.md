@@ -8,30 +8,7 @@
 
 > Используя метод <mark style="color:$warning;">this.getServiceManager().getAddonManager().disable(this);</mark>, вы можете отключить как собственный аддон, так и любой другой, переданный в параметре. Класс при этом обязательно должен наследоваться от `JavaAddon`.
 
-```java
-package me.jetby.treexclans.api.addons.example;
-
-import me.jetby.treexclans.api.addons.JavaAddon;
-import me.jetby.treexclans.api.addons.annotations.ClanAddon;
-
-@ClanAddon(
-        id = "test-addon",
-        version = "1.0.0",
-        authors = {"JetBy"}
-)
-public final class TestAddon extends JavaAddon {
-
-    @Override
-    public void onEnable() {
-        this.getServiceManager().getAddonManager().disable(this);
-    }
-
-    @Override
-    public void onDisable() {
-        // Plugin shutdown logic
-    }
-}
-```
+<figure><img src="../../../.gitbook/assets/AddonManager.class(1) (2).png" alt="" width="188"><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
