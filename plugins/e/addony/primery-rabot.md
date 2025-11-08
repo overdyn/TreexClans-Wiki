@@ -8,7 +8,7 @@
 
 > Используя метод <mark style="color:$warning;">this.getServiceManager().getAddonManager().disable(this);</mark>, вы можете отключить как собственный аддон, так и любой другой, переданный в параметре. Класс при этом обязательно должен наследоваться от `JavaAddon`.
 
-<figure><img src="../../../.gitbook/assets/AddonManager.class(1) (2).png" alt="" width="188"><figcaption></figcaption></figure>
+<div data-full-width="false"><figure><img src="../../../.gitbook/assets/AddonManager.class(1) (2).png" alt=""><figcaption></figcaption></figure></div>
 {% endstep %}
 
 {% step %}
