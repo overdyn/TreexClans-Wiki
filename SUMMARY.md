@@ -12,4 +12,4 @@
 * [TreexClans](plugins/treexclans/README.md)
   * [Addons](plugins/treexclans/addons/README.md)
     * [Addon Development](plugins/treexclans/addons/addon-development.md)
-    * [Примеры работ](plugins/treexclans/addons/primery-rabot.md)
+    * [Project Examples](plugins/treexclans/addons/project-examples.md)

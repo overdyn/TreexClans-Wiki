@@ -109,7 +109,7 @@ If a required module is missing or incompatible, TreexClans will notify you in t
 
 ### 💡 Примеры встроенных и популярных аддонов
 
-| 🔧 Название    | 📝 Описание                                   |
+| 🔧 Addon Name  | 📝 Addon Description                          |
 | -------------- | --------------------------------------------- |
 | **ClanShop**   | Клановый магазин предметов, валют и апгрейдов |
 | **ClanQuests** | Система заданий и достижений клана            |
