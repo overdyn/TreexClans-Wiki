@@ -6,7 +6,7 @@
 {% step %}
 ### Как выключить плагин
 
-> &#x20;используя  this.getServiceManager().getAddonManager().disable(this); можно передать любой аддон который надо выключить либо который ваш но этот класс обязательно должен наследовать extends JavaAddon
+> Используя метод <mark style="color:$warning;">this.getServiceManager().getAddonManager().disable(this);</mark>, вы можете отключить как собственный аддон, так и любой другой, переданный в параметре. Класс при этом обязательно должен наследоваться от `JavaAddon`.
 
 ```java
 package me.jetby.treexclans.api.addons.example;
