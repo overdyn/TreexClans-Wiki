@@ -254,6 +254,25 @@ public class ExampleSubcommand implements Subcommand {
 
 ***
 
+{% stepper %}
+{% step %}
+###
+
+```javascript
+var cfg = service.getServiceConfiguration().getConfig();
+String value = cfg.getString("settings.example");
+```
+{% endstep %}
+
+{% step %}
+###
+
+```java
+commandService.registerCommand("example", new ExampleSubcommand());
+```
+{% endstep %}
+{% endstepper %}
+
 ## 🧰 Сборка и загрузка
 
 {% stepper %}
