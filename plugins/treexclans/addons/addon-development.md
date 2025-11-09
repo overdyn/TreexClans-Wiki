@@ -28,11 +28,22 @@ Use `compileOnly` so that the API is not included inside your `.jar` file.
 
 ```css
 repositories {
-    maven { url "https://maven.jetby.space" }
+    maven {
+        name = "jetby-repo"
+        url = "https://maven.jetby.space"
+    }
+    maven {
+        name = "jitpack.io"
+        url = "https://jitpack.io"
+    }
+    maven {
+        name = "Jodexindustries-releases"
+        url = "https://repo.jodex.xyz/releases"
+    }
 }
 
 dependencies {
-    compileOnly("space.jetby.TreexClans:api:1.0.0")
+    compileOnly("space.jetby.TreexClans:api:1.0.6")
 }
 ```
 {% endtab %}
@@ -47,17 +58,29 @@ Use `provided` so that the API is not included inside your `.jar` file.
 {% endhint %}
 
 ```xml
-<repository>
-    <id>jetby-repo</id>
-    <url>https://maven.jetby.space</url>
-</repository>
+<repositories>
+    <repository>
+        <id>jetby-repo</id>
+        <url>https://maven.jetby.space/releases</url>
+    </repository>
+    <repository>
+        <id>jitpack.io</id>
+        <url>https://jitpack.io</url>
+    </repository>
+    <repository>
+        <id>Jodexindustries-releases</id>
+        <url>https://repo.jodex.xyz/releases</url>
+    </repository>
+</repositories>
 
-<dependency>
-    <groupId>space.jetby.TreexClans</groupId>
-    <artifactId>api</artifactId>
-    <version>1.0.0</version>
-    <scope>provided</scope>
-</dependency>
+<dependencies>
+    <dependency>
+        <groupId>space.jetby.TreexClans</groupId>
+        <artifactId>api</artifactId>
+        <version>1.0.0</version>
+        <scope>provided</scope>
+    </dependency>
+<dependencies>
 ```
 {% endtab %}
 {% endtabs %}
