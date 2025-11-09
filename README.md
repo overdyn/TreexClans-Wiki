@@ -41,6 +41,6 @@ We are engaged in the creation of modern and unique plugins for various projects
 
 ### [**Discord**](https://dsc.gg/treexstudio) **RU**
 
-### [**Discord**](https://dsc.gg/treexstudio) **EN**
+### [**Discord**](https://dsc.gg/jetby) **EN**
 {% endhint %}
 
