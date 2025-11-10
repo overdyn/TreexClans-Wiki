@@ -16,7 +16,7 @@ icon: '2'
 
 <table><thead><tr><th width="399">Placeholder</th><th>Description</th></tr></thead><tbody><tr><td><code>%clan_top_kills_&#x3C;position>_&#x3C;name/progress></code></td><td>Top by <strong>kills</strong></td></tr><tr><td><code>%clan_top_deaths_&#x3C;position>_&#x3C;name/progress></code></td><td>Top by <strong>deaths</strong></td></tr><tr><td><code>%clan_top_kd_&#x3C;position>_&#x3C;name/progress></code></td><td>Top by <strong>K/D ratio</strong></td></tr><tr><td><code>%clan_top_balance_&#x3C;position>_&#x3C;name/progress></code></td><td>Top by <strong>balance</strong></td></tr><tr><td><code>%clan_top_level_&#x3C;position>_&#x3C;name/progress></code></td><td>Top by <strong>level</strong></td></tr><tr><td><code>%clan_top_members_&#x3C;position>_&#x3C;name/progress></code></td><td>Top by <strong>member count</strong></td></tr></tbody></table>
 
-{% code title="DecentHolograms/holograms/jetbyClanTop.yml" %}
+{% code title="DecentHolograms" %}
 ```yaml
 location: world:0.500:100.0:0.500
 enabled: true
