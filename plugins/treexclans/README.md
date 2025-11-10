@@ -4,7 +4,7 @@ icon: '2'
 
 # TreexClans
 
-
+wiki plugin
 
 <details>
 
