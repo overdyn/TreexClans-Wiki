@@ -43,7 +43,7 @@ repositories {
 }
 
 dependencies {
-    compileOnly("space.jetby.TreexClans:api:1.0.6")
+    compileOnly("space.jetby.TreexClans:api:2.1")
 }
 ```
 {% endtab %}
@@ -77,7 +77,7 @@ Use `provided` so that the API is not included inside your `.jar` file.
     <dependency>
         <groupId>space.jetby.TreexClans</groupId>
         <artifactId>api</artifactId>
-        <version>2.0</version>
+        <version>2.1</version>
         <scope>provided</scope>
     </dependency>
 <dependencies>
