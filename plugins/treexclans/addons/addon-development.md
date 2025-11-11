@@ -61,7 +61,7 @@ Use `provided` so that the API is not included inside your `.jar` file.
 <repositories>
     <repository>
         <id>jetby-repo</id>
-        <url>https://maven.jetby.space/releases</url>
+        <url>https://maven.jetby.space/</url>
     </repository>
     <repository>
         <id>jitpack.io</id>
