@@ -1,58 +1,54 @@
 # Main config
 
-<pre class="language-yaml"><code class="lang-yaml">storage:
-  # YAML, MYSQL, SQLITE, JSON
-  type: "YAML"
-  #
-  # If type is set to YAML or JSON
-  #
-<strong>  # If you have a large online, it is recommended to enable this option to avoid loading the server when working with YAML/JSON
-</strong>  # true - Will instantly save data to a file when changing
-  # false - Will save data to a file only when the server is rebooted
-<strong>  # If you have a small online, you can leave false
-</strong>  yaml-or-json-force-save: false
-  # The data below is used for MYSQL only.
+```yaml
+storage:
+  # MYSQL, SQLITE, JSON
+  type: "SQLITE"
+  # The settings below are only used for MYSQL
   host: "localhost"
   port: 3306
   database: "treexbuyer"
   username: "root"
   password: ""
 
-debug: false
-
 autobuy:
-  delay: 60  # In ticks. How often AutoBuy will be triggered. Default is 60 - 3 seconds
+  enable: true
+  delay: 60  # In ticks. How often auto-sell triggers. Default 60 = 3 seconds
   actions:
-    - '[MESSAGE] &#x26;8&#x26;l> &#x26;fn Automatically sold items worth &#x26;a&#x26;l%sell_pay%&#x26;f, and &#x26;c&#x26;l%sell_score% &#x26;fpoints.'
+    - '[MESSAGE] <green>Auto-sell <gray>» <white>Sold items for <gold>$%sell_pay_commas% <gray>(<yellow>+%sell_score% points<gray>)'
+    - '[SOUND] entity_player_levelup;0.1'
   disabled-worlds:
     - duel-1
     - duel-2
   status:
-    enable: "&#x26;aEnabled"
-    disable: "&#x26;cDisabled"
+    enable: "<#0DFB00><bold>Enabled"
+    disable: "<#FB0000><bold>Disabled"
 
 
 score-system:
-  # How will the Coefficient grow
-  # GLOBAL - For all subjects at once
-  # ITEM - For each subject its own
-  # CATEGORY - For each category its own
-  type: GLOBAL
+  # How the coefficient grows
+  # GLOBAL - Same for all items
+  # ITEM - Individual per item
+  # CATEGORY - Individual per category
+  type: CATEGORY
+
+  # Every 1000 points the player gains +0.01 multiplier
   multiplier-ratio:
-    scores: 100
+    scores: 1000.0
     coefficient: 0.01
 
-  # maximum coefficient (excluding donation boosts)
-  default-coefficient: 1
-  max-legal-coefficient: 3
+  # Maximum coefficient (excluding donor boosts)
+  default-coefficient: 1.0
+  max-legal-coefficient: 3.0
 
-  # if true, donation boosts will bypass the value in max-legal-coefficient
+  # If true, donor boosts will bypass the max-legal-coefficient value
   boosters_except_legal_coefficient: true
 
   booster:
-    donat-1: # name (can be any)
-      permission: 'buyer.boost.donat1' # (permission by which the presence of a boost will be determined)
+    donat-1: # name (can be anything)
+      permission: 'buyer.boost.donat1' # permission used to check if the player has this boost
       external-coefficient: 0.5
 
 
-</code></pre>
+
+```
