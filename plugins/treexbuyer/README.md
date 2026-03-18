@@ -1,4 +1,5 @@
 ---
+icon: coin-vertical
 coverY: 0
 ---
 

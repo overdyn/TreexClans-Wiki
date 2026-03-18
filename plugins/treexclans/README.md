@@ -1,5 +1,6 @@
 ---
-icon: '2'
+icon: swords
+coverY: 0
 ---
 
 # TreexClans
