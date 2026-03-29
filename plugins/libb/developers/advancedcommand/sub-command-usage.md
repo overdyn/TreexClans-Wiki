@@ -1,6 +1,6 @@
 # Sub Command usage
 
-### Method parameters
+### [Method parameters](sub-command-usage.md#method-parameters)
 
 The first `Player` or `CommandSender` parameter is always injected automatically as the sender — it never consumes an argument.
 
@@ -15,7 +15,7 @@ public void give(Player sender, Player target, int amount, String reason) {
 
 ***
 
-#### Supported types
+#### [Supported types](sub-command-usage.md#supported-types)
 
 **`CommandSender`** — the sender, injected automatically.
 
@@ -74,7 +74,7 @@ public void toggle(Player sender, boolean state) {}
 
 ***
 
-#### Custom error messages
+#### [Custom error messages](sub-command-usage.md#custom-error-messages)
 
 Use `@Arg` on any parameter to override the default error message. The placeholder `{input}` is replaced with what the player typed.
 
@@ -92,11 +92,7 @@ If `@Arg` is not present, a default message is used. If `@InsufficientArgs` is n
 
 ***
 
-Вот секции для документации:
-
-***
-
-### Annotations
+### [Annotations](sub-command-usage.md#annotations)
 
 #### `@Permission`
 
@@ -158,7 +154,7 @@ public void tp(Player sender, Player target) {}
 
 ***
 
-#### Multi-argument subcommands
+#### [Multi-argument subcommands](sub-command-usage.md#multi-argument-subcommands)
 
 `@SubCommand` accepts an array defining the full path to the subcommand. Each element is one argument the player types.
 
