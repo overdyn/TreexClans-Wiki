@@ -1,6 +1,6 @@
 # AdvancedCommand
 
-### Extend the class
+### [Extend the class](./#extend-the-class)
 
 ```java
 public class TestCommand extends AdvancedCommand {
@@ -15,7 +15,7 @@ public class TestCommand extends AdvancedCommand {
 
 If you need to handle this command, use **`onExecute`**. Importantly, do **not** use `onCommand`, as it is an integral part of the utility's core logic. Modify this **only** if you know exactly what you are doing. The same applies to `onTabComplete`; **instead**, use `onTab`.
 
-#### onExecute usage:
+#### [onExecute usage:](./#onexecute-usage)
 
 ```java
 public class TestCommand extends AdvancedCommand {
@@ -31,7 +31,7 @@ public class TestCommand extends AdvancedCommand {
 }
 ```
 
-#### onTab usage
+#### [onTab usage](./#ontab-usage)
 
 ```java
 public class TestCommand extends AdvancedCommand {
@@ -46,7 +46,7 @@ public class TestCommand extends AdvancedCommand {
 }
 ```
 
-#### Or you can use both:
+#### [Or you can use both:](./#or-you-can-use-both)
 
 ```java
 public class TestCommand extends AdvancedCommand {
@@ -66,13 +66,13 @@ public class TestCommand extends AdvancedCommand {
 }
 ```
 
-### Register
+### [Register](./#register)
 
 ```java
 new TestCommand(this).register();
 ```
 
-### Register with sub commands
+### [Register with sub commands](./#register-with-sub-commands)
 
 ```java
 new TestCommand(this)
@@ -82,7 +82,7 @@ new TestCommand(this)
 .register();
 ```
 
-### Register with sub commands (List)
+### [Register with sub commands (List)](./#register-with-sub-commands-list)
 
 ```java
 List<Object> subs = new ArrayList<>();
