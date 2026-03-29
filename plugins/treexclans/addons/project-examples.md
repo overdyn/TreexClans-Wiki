@@ -14,8 +14,7 @@ The class must extend **`JavaAddon`** for this to work.
 
 <div data-with-frame="true"><figure><img src="../../../.gitbook/assets/JebyTestAddon.java(2).png" alt=""><figcaption></figcaption></figure></div>
 
-\
-
+<br>
 {% endstep %}
 
 {% step %}
