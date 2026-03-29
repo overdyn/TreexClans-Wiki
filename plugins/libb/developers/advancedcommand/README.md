@@ -67,3 +67,31 @@ public class TestCommand extends AdvancedCommand {
     }
 }
 ```
+
+#### Register
+
+```java
+new TestCommand(this).register();
+```
+
+#### Register with sub commands
+
+```java
+new TestCommand(this)
+.addSubCommand(new TestSubCommand())
+.addSubCommand(new TestSubCommand2()) // etc
+// or
+.register();
+```
+
+#### Register with sub commands (List)
+
+```java
+List<Object> subs = new ArrayList<>();
+subs.add(new ShopSubCommand());
+subs.add(new MenuSubCommand());
+subs.add(new HelpSubCommand());
+subs.add(new SettingsSubCommand());
+
+new TestCommand(this).addSubCommand(subs).register();
+```
